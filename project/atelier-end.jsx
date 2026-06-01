@@ -33,8 +33,7 @@ function AWhy({ tickerSpeed = 0.7 }) {
 }
 
 function AClients() {
-  const [showAll, setShowAll] = useState(false);
-  const list = showAll ? A_CLIENTS : A_CLIENTS.slice(0, 5);
+  const list = A_CLIENTS.slice(0, 5);
   const rest = A_CLIENTS.length - 5;
   return (
     <section className="section s-ink" id="clients">
@@ -51,12 +50,11 @@ function AClients() {
               <span className="cli__sector">{sector}</span>
             </div>
           ))}
-          <button className={`cli__more ${showAll ? "open" : ""}`} data-cursor
-                  onClick={() => setShowAll(!showAll)} aria-expanded={showAll}>
-            <span className="n">{showAll ? "—" : "+" + String(rest).padStart(2,"0")}</span>
-            <span className="lbl">{showAll ? "Show fewer" : "Show more clients"}</span>
-            <span className="ar">↓</span>
-          </button>
+          <a className="cli__more" href="clients.html" data-cursor>
+            <span className="n">{"+" + String(rest).padStart(2,"0")}</span>
+            <span className="lbl">View all clients</span>
+            <span className="ar">↗</span>
+          </a>
         </div>
       </div>
     </section>
@@ -75,7 +73,7 @@ function AContact() {
         <div className="contact__foot">
           <div className="blk"><b>Email</b><a href="mailto:hello@quvit-eg.com">hello@quvit-eg.com</a></div>
           <div className="blk"><b>Social</b><a href="https://www.linkedin.com/company/quvit-it-solutions" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://www.facebook.com/people/QUVit-IT-Solutions/61576592515884/" target="_blank" rel="noopener noreferrer">Facebook</a></div>
-          <div className="blk"><b>Based in</b><span>Egypt — Remote-ready</span></div>
+          <div className="blk"><b>Based in</b><a href="https://share.google/LsRInTsoWsZGccwf2" target="_blank" rel="noopener noreferrer">Nasr City, Cairo, Egypt</a></div>
         </div>
       </div>
     </section>

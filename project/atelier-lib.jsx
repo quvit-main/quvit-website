@@ -30,16 +30,16 @@ const A_LEX = [
 ];
 
 const A_CLIENTS = [
-  ["Sylndr","Automotive / Fintech"],
-  ["QNBeyond Plus","Banking — Technical Arm"],
-  ["Embassy of Brazil","Government"],
-  ["Al Bashaer Schools","Education"],
-  ["United Co. of Pharmacists","Pharmaceutical"],
-  ["Carousel Studios","Creative"],
-  ["Omrania for Education","Education"],
-  ["Etma'n Labs","Healthcare"],
-  ["Dr. Magdy Soliman Hospital","Healthcare"],
-  ["Shokry Medical Center","Healthcare"],
+  ["Sylndr","Automotive / E-commerce","assets/clients/sylndr.png"],
+  ["QNBeyond Plus","Banking — Technical Arm","assets/clients/qnbeyond.png"],
+  ["Embassy of Brazil","Government","assets/clients/embassy-brazil.png"],
+  ["Al Bashaer Schools","Education","assets/clients/al-bashaer.png"],
+  ["United Co. of Pharmacists","Pharmaceutical","assets/clients/ucp.png"],
+  ["Carousel Studios","Creative","assets/clients/carousel.png"],
+  ["Omrania for Education","Education","assets/clients/omrania.png"],
+  ["Etma'n Labs","Healthcare",null],
+  ["Dr. Magdy Soliman Hospital","Healthcare","assets/clients/magdy.png"],
+  ["Shokry Medical Center","Healthcare",null],
 ];
 
 /* ---------- CUSTOM CURSOR ---------- */

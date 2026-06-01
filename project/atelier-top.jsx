@@ -10,7 +10,7 @@ function ANav({ open, onToggle }) {
   const links = [["About", "#about"], ["Services", "#services"], ["Why QUVit", "#why"], ["Clients", "#clients"]];
   return (
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
-      <a href="#top" aria-label="QUVit"><img className="nav__logo" src="assets/logo-white.svg" alt="QUVit" /></a>
+      <a href="#top" aria-label="QUVit"><img className="nav__logo" src="assets/logo-nav-white.svg" alt="QUVit" /></a>
       <div className="nav__right">
         <div className="nav__links">
           {links.map(([l, h]) => <a key={h} href={h}>{l}</a>)}
@@ -53,7 +53,7 @@ function AHero() {
   return (
     <header className="hero wrap s-ink" id="top">
       <div className="hero__meta">
-        <div className="col"><span className="meta">QUVit IT Solutions</span><span className="meta"><b>Est. — Egypt</b></span></div>
+        <div className="col"><span className="meta">QUVit IT Solutions</span><a className="meta meta--link" href="https://share.google/LsRInTsoWsZGccwf2" target="_blank" rel="noopener noreferrer"><b>Nasr City, Cairo, Egypt</b></a></div>
         <div className="col"><span className="meta">(Q) Quality</span><span className="meta"><b>(U) Uniqueness — (V) Value</b></span></div>
         <div className="col"><span className="meta">Infrastructure / Hardware</span><span className="meta"><b>Maintenance / Support / Licensing</b></span></div>
       </div>

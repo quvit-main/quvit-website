@@ -22,23 +22,11 @@ function AAbout() {
             <p className="about__note">
               The name is a promise, spelled out. Three letters that decide everything we build.
             </p>
+            <a className="maglink about__dive" href="about.html" data-cursor>
+              <span className="ln">Dive deeper into QUVit</span>
+              <span className="ar">↗</span>
+            </a>
           </div>
-        </div>
-
-        <div className="lex">
-          {A_LEX.map((e) => (
-            <div className="lex__row" key={e.L} data-cursor>
-              <div className="lex__big">{e.L}</div>
-              <div>
-                <div className="lex__head">
-                  <span className="lex__word">{e.word}</span>
-                  <span className="lex__ipa">{e.ipa}</span>
-                  <span className="lex__pos">{e.pos}</span>
-                </div>
-                <p className="lex__def" dangerouslySetInnerHTML={{__html:e.def}}></p>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
     </section>
