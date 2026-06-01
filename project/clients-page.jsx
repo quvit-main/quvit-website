@@ -159,7 +159,7 @@ function ClientsPage() {
         </section>
 
         <section className="ap-cta wrap">
-          <h3 className="display">Become our next <em>partner.</em></h3>
+          <h3 className="display">Become our next <em>Success.</em></h3>
           <a className="ap-back" href={BACK} data-cursor>
             <span className="ar">←</span><span>Back to site</span>
           </a>
