@@ -31,7 +31,7 @@ const A_LEX = [
 
 const A_CLIENTS = [
   ["Sylndr","Automotive / E-commerce","assets/clients/sylndr.png"],
-  ["QNBeyond Plus","Banking — Technical Arm","assets/clients/qnbeyond.png"],
+  ["QNBeyond Plus","Banking — QNB Technical Arm","assets/clients/qnbeyond.png"],
   ["Embassy of Brazil","Government","assets/clients/embassy-brazil.png"],
   ["BBI","AI Services","assets/clients/bbi.jpg"],
   ["Al Bashaer Schools","Education","assets/clients/al-bashaer.png"],
