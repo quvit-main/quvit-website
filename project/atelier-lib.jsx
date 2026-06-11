@@ -33,6 +33,7 @@ const A_CLIENTS = [
   ["Sylndr","Automotive / E-commerce","assets/clients/sylndr.png"],
   ["QNBeyond Plus","Banking — Technical Arm","assets/clients/qnbeyond.png"],
   ["Embassy of Brazil","Government","assets/clients/embassy-brazil.png"],
+  ["BBI","AI Services","assets/clients/bbi.png"],
   ["Al Bashaer Schools","Education","assets/clients/al-bashaer.png"],
   ["United Co. of Pharmacists","Pharmaceutical","assets/clients/ucp.png"],
   ["Carousel Studios","Creative","assets/clients/carousel.png"],
